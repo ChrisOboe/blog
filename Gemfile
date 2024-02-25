@@ -11,7 +11,7 @@ gem "minima"
 group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-sitemap"
-  gem "jekyll-kroki", path: "/home/chris/projekte/3rdParty/jekyll-kroki"
+  gem "jekyll-kroki"
 end
 
-gem "google-protobuf", "~> 4.26.0.rc.2"
+gem "google-protobuf", "~> 4.26.0.rc.2" # upstream 3.x is broken in <3.25 and 3.26 or 4? doesn't exist yet

@@ -184,8 +184,9 @@
     groups = ["jekyll_plugins"];
     platforms = [];
     source = {
-      path = /home/chris/projekte/3rdParty/jekyll-kroki;
-      type = "path";
+      remotes = ["https://rubygems.org"];
+      sha256 = "0n2l3an9yf2pay791c145ljdbsh82cf4n9xnfz7v0pbx5nqrmclj";
+      type = "gem";
     };
     version = "0.3.1";
   };
